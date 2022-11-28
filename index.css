@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 575px;   
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 35px;
+    color: white;
+}
+
+#home-points-text, #guest-points-text{
+    
+     display: flex;
+     font-family:'Cursed Timer ULiL', sans-serif;                               
+     background-color: black;
+     color: #F94F6D;
+     font-size: 90px;
+     border-radius: 5px;
+     width: 155px;
+     height: 120px;
+     align-items:center;
+     justify-content:center;
+}
+
+.btn-home,.btn-guest, .reset button {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 35px;
+    width: px;
+    height: 45px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8
+}
+
+.reset button {
+    width: auto;
+    margin: 0;
+}
+.btn-home:hover, .btn-guest:hover{
+    background-color: #1B344A;
+    border-color: white;
+    color: white
+}
+.reset button:hover{
+    background: darkred;
+    color: white
+}
+.btn-home:focus, .btn-guest:focus, .reset button{
+    outline: none;
+}
+
+break{
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
+}
